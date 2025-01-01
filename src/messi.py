@@ -27,7 +27,7 @@ class Messi:
         self.currentFrame = self.frames[3]
 
         self.kapeczki = 0
-        self.font = pygame.font.Font(None, 50)
+        self.font = pygame.font.Font("../fonts/PixelifySans-Regular.ttf", 40)
 
     def getFrame(self, frame_x, frame_y):
         rect = pygame.Rect(frame_x * self.frameSize, frame_y * self.frameSize, self.frameSize, self.frameSize)
