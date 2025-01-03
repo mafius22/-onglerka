@@ -121,6 +121,7 @@ class Messi:
         self.move_player()
 
     def reset(self):
+        self.currentFrames = [self.frames[3]]
         self.x = self.resetx
         self.y = self.resety
         self.kapeczki = 0

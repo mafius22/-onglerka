@@ -17,7 +17,7 @@ class Game:
         self.boisko = pygame.image.load("../graphs/boisko.png").convert_alpha()
 
         #Game
-        self.player = Messi(322,350)
+        self.player = Messi(260,350)
         self.ball = Ball(440, 550)
 
         #Music
